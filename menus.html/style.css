@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    color: #1e1e2a;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.titulo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+}
+
+.imagem {
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+    margin-left: 750px;
+    margin-right: 48px;
+}
+
+.Foto1 {
+    width: 300px;
+    right: 300px;
+    border-color: blanchedalmond;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 9999px;
+    align-items: center;
+}
+
+
+
+
+.contatos {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    padding: 100px
+}
+
+.imagem1 {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+}
+
+.imagem2 {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.imagem3 {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.imagem4 {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.buton {
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.dev {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 168px;
+}
+
+.buton-edit {
+    margin-top: 32px;
+}
+
+.container-projetos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo-projeto {
+    display: flex;
+    flex-direction: row;
+    margin-left: 285px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 318px;
+    background-color: #eeaeca;
+    box-shadow: cadetblue;
+}
+
+.developer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}

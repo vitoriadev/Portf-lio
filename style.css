@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    color: #1e1e2a;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.header-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+
+}
+
+.Foto1 {
+    width: 300px;
+    right: 300px;
+    border-color: blanchedalmond;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 9999px;
+
+}
+
+.h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.social-midia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-midia a {
+    text-decoration: none;
+    color: #1e1e2a;
+    padding: 32px 80px;
+    border: 1px solid #1e1e2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: 5s ease-in-out; */
+
+}
+
+a:hover {
+    background-color: #ffffff;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999;
+    transition: 400ms ease-in-out 0s;
+
+}
+
+
+.midias-sociais {
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cabecalho-itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+.cabecalho-itens a {
+    text-decoration: none;
+    border: 1px black solid;
+    color: #1e1e2a;
+    padding: 10px 35px;
+    text-align: center;
+
+    border-radius: 16px;
+}
+
+.inicio {
+    margin-left: 56px;
+}
+
+.footer {
+    text-align: center;
+}
